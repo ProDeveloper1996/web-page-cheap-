@@ -1,0 +1,113 @@
+.header_div {
+    height: 50px;
+    background: linear-gradient(rgb(245, 244, 244), rgb(219, 218, 218));
+    border-bottom: 0.5px solid black;
+}
+.header_div span {
+    color: black;
+}
+.header_div div {
+    float: right;
+    margin: 7px 20px 0 20px;
+}
+.header_div1 {
+    height: 5px;
+    background: linear-gradient(rgb(247, 247, 247), rgb(219, 218, 218));
+}
+#sidebar {
+    display: inline-block;
+}
+#sidebar {
+    float: left;
+    /* width: 13%; */
+}
+#sidebar ul {
+    padding: 0;
+}
+#sidebar li {
+    list-style: none;
+    height: 35px;
+    margin: 2px 0;
+    color: #fff;
+    background: linear-gradient(#1489e2 60%, rgb(53, 53, 53));
+}
+#sidebar span {
+    margin: 5px 0 0 10px;
+}
+#memberArea_body {
+    float: left;
+    /* width: 87%; */
+}
+.member_body {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.member_item {
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.member_item_top {
+    color: #fff;
+    text-align: right;
+    margin-top: -20px;
+    height: 90px;
+}
+.member_item_bottom {
+    padding: 5px 0 0 10px;
+}
+.member_body_footer {
+    padding: 15px;
+}
+
+.green {
+    background: lightgreen;
+}
+.blue {
+    background: rgb(8, 72, 190);
+}
+.red {
+    background: rgb(206, 53, 7);
+}
+.yellow {
+    background: rgb(245, 151, 28);
+}
+.green_color {
+    color: lightgreen;
+}
+.blue_color {
+    color: rgb(8, 72, 190);
+}
+.red_color {
+    color: rgb(206, 53, 7);
+}
+.yellow_color {
+    color: rgb(245, 151, 28);
+}
+.green_border {
+    border: 2px solid lightgreen;
+}
+.blue_border {
+    border: 2px solid rgb(8, 72, 190);
+}
+.red_border {
+    border: 2px solid rgb(206, 53, 7);
+}
+.yellow_border {
+    border: 2px solid rgb(245, 151, 28);
+}
+
+@media only screen and (max-width: 991px) {
+    .member_item_top h1 {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .member_item_top h1 {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .member_item_top h1 {
+        font-size: 33px;
+    }
+}

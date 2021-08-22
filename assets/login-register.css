@@ -1,0 +1,124 @@
+/* login */
+
+.login {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #a3cff842;
+}
+.login-content {
+    width: 90%;
+    margin: auto;
+}
+.login-button {
+    width: 100%;
+    margin: 15px 0px;
+}
+.login-form div input {
+    margin: 5px 0px;
+    background-color: #a3cff842;
+    border-radius: 0;
+    height: 50px;
+}
+.login-form div input:focus {
+    border: 0;
+    background-color: #a3cff842;
+}
+.login-form div span {
+    color: #ff4500;
+}
+.login-form a {
+    color: blue !important;
+}
+/* register */
+
+.register {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    background-color: #a3cff842;
+}
+.register-title {
+    background-color: #a3cff842;
+    padding: 5px;
+    width: 23%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register-title h5 {
+    font-size: 18px;
+}
+.register-title p {
+    margin: 0;
+}
+.register-form .p-blue {
+    color: blue;
+    font-weight: bold;
+}
+.register-form .p-bold {
+    font-weight: bold;
+}
+.register-form div p {
+    margin-bottom: 5px;
+}
+.register-form p {
+    display: inline-block;
+}
+.footer-p {
+    margin: 20px 0 0 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .register-title h5 {
+        font-size: 15px;
+    }
+    .register-title h3 {
+        font-size: 20px;
+    }
+    .register-title p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .register-title {
+        width: 28%;
+    }
+    .register-title h5 {
+        font-size: 13px;
+    }
+    .register-title h3 {
+        font-size: 18px;
+    }
+    .register-title p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 543px) {
+    .register-title {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .register-title {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 398px) {
+    .register-title {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .register-title {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 293px) {
+    .register-title {
+        width: 95%;
+    }
+}

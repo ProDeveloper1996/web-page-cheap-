@@ -1,0 +1,126 @@
+body {
+    background: url("https://static.zakupka.com/tpl/one_firm/_textures/texture_1_106.jpg");
+}
+#header ul {
+    background: black;
+    float: right;
+}
+#header ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+#header ul li a {
+    color: #fff;
+}
+#header ul li a:hover {
+    text-decoration: none;
+}
+#top_bg {
+    padding: 100px 0;
+    background: url("https://www.lettercopy.com/wp-content/themes/Triangle/assets/img/top-bg.png");
+    background-size: 100% 100%;
+}
+#top_bg h2, #top_bg p {
+    font-weight: 700;
+}
+#top_bg p {
+    color: #fff;
+    font-size: 18px;
+}
+#top_bg h2 {
+    color: #ffeac7;
+    font-size: 40px;
+}
+#top_bg button, #top_bg button:focus {
+    border: 5px solid  #ffcb05;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 100px;
+}
+#top_bg .btn-p {
+    border: 5px solid  #ffcb05;
+    width: max-content;
+    padding: 5px 15px;
+    background: rgb(24, 35, 44);
+    outline: 8px solid rgb(24, 35, 44);
+}
+#txt p, #txt h3 {
+    font-weight: 700;
+    color: white;
+}
+#txt p {
+    font-size: 18px;
+}
+.body_1_btn {
+    background: rgb(24, 35, 44);
+    width: max-content;
+    padding: 5px 10px;
+}
+.body_1_btn button {
+    color: #fff;
+    min-width: 0;
+    padding: 15px 20%;
+    border: 5px solid #ffcb05;
+    border-radius: 0;
+    font-size: 22px;
+    font-weight: 1000;
+}
+.body_1_btn button {
+    color: #fff !important;
+}
+.level_div p {
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+#body_1 h4 {
+    font-size: 22px;
+    font-weight: 1000;
+    color: black;
+}
+#body_2 img {
+    margin-top: 20px;
+}
+#body_3 h3 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 35px;
+}
+
+@media only screen and (max-width: 991px) {   
+    .level_div p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 769px) {   
+    .level_div p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 271px) {   
+    .level_div p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 325px) {   
+    .body_1_btn button {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 230px) {   
+    .body_1_btn button {
+        font-size: 13px;
+        padding: 15px 5%;
+    }
+}
+@media only screen and (max-width: 180px) {   
+    .body_1_btn button {
+        font-size: 10px;
+        padding: 15px 0;
+    }
+}
